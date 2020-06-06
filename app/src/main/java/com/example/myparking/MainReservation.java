@@ -131,7 +131,7 @@ public class MainReservation extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainReservation.this, "Sauvegarder", Toast.LENGTH_SHORT).show();
+
                 startActivity(new Intent(view.getContext(), AddReservations.class));
             }
         });
