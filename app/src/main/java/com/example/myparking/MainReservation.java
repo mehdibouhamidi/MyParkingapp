@@ -54,7 +54,7 @@ public class MainReservation extends AppCompatActivity {
         fAuth = FirebaseAuth.getInstance();
         user = fAuth.getCurrentUser();
 
-       Query query = fStore.collection("reservations").document(user.getUid()).collection("myReservations").orderBy("day", Query.Direction.DESCENDING);
+       Query query = fStore.collection("reservations").document(user.getUid()).collection("myReservations").orderBy("paking", Query.Direction.DESCENDING);
         FirestoreRecyclerOptions<Reservation> allReservations;
         allReservations = new FirestoreRecyclerOptions.Builder<Reservation>()
                 .setQuery(query, Reservation.class)

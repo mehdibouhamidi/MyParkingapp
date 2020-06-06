@@ -109,14 +109,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#000000"
-        android:text="generate"
+        android:text="finaliser réservation"
         android:textColor="@color/colorOrange"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintHorizontal_bias="0.574"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.559" />
+        app:layout_constraintVertical_bias="0.632" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"

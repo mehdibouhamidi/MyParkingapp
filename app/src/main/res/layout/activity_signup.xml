@@ -77,7 +77,7 @@
         android:background="@android:color/transparent"
         android:ems="10"
         android:gravity="center_vertical"
-        android:hint="ici matricule exp:(01-A-21456)"
+        android:hint="ici matricule exp:(01-أ-2541)"
         android:inputType="textPersonName"
         android:paddingLeft="20sp"
         android:textSize="18sp"

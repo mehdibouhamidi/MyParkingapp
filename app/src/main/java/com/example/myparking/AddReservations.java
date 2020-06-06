@@ -114,7 +114,6 @@ public class AddReservations extends AppCompatActivity {
                 fab.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Toast.makeText(AddReservations.this,"Sauvegarder",Toast.LENGTH_SHORT).show();
                         String rparking = parkingvaleur.getText().toString();
                         String rheure = heurevaleur.getText().toString();
                         String rjour = jourvaleur.getText().toString();
@@ -135,7 +134,7 @@ public class AddReservations extends AppCompatActivity {
                         doref.set(reservation).addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void aVoid) {
-                                Toast.makeText(AddReservations.this,"votre reservation a été ajouté ",Toast.LENGTH_SHORT).show();
+                                Toast.makeText(AddReservations.this,"votre reservation a été ajoutée ",Toast.LENGTH_SHORT).show();
                                 onBackPressed();
                             }
                         }).addOnFailureListener(new OnFailureListener() {
@@ -166,7 +165,7 @@ public class AddReservations extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if(item.getItemId() == R.id.close){
             onBackPressed();
-            Toast.makeText(AddReservations.this,"la réservation est non enregistrer",Toast.LENGTH_SHORT).show();
+            Toast.makeText(AddReservations.this,"la réservation est non enregistrée",Toast.LENGTH_SHORT).show();
         }
         return super.onOptionsItemSelected(item);
     }
