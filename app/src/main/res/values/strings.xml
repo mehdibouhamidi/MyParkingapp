@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Parking</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="avatar">avatar</string>
+    <string name="facebook_link">www.facebook.com/MyParking</string>
+    <string name="istagram_link">www.istagram.com/My.Parking</string>
+    <string name="email_link">parkingappfste@gmail.com</string>
+    <string name="avatar2">avatar2</string>
+    <string name="logoabout">logoabout</string>
+    <string name="facebook">facebook</string>
+    <string name="gmail">gmail</string>
+    <string name="instagram">instagram</string>
+    <string name="title_activity_user_localisation">Map</string>
+    <string name="title_activity_reservation_details">ReservationDetails</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="dskqsjd">textview</string>
+    <string name="title_activity_add_reservations">AddReservations</string>
+</resources>
