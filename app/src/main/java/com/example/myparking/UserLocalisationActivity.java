@@ -168,12 +168,21 @@ public class UserLocalisationActivity extends FragmentActivity implements OnMapR
 
                 mMap.setMyLocationEnabled(true);//activer votre localisation
                 LatLng park1 = new LatLng(31.934507,-4.42506);
-                LatLng park2 = new LatLng(31.932789,-4427441);
+                LatLng park2 = new LatLng(32.682830,-4.743650);
                 LatLng park3 = new LatLng(31.927330,-4.424343);
+                LatLng park4 = new LatLng(33.980726,-6.865411);
+                LatLng park5 = new LatLng(33.924894,-6.959292);
 
-                mMap.addMarker(new MarkerOptions().position(park1).title("Préfecture parking"));
-                mMap.addMarker(new MarkerOptions().position(park2).title("Place Hassan 2 parking"));
-                mMap.addMarker(new MarkerOptions().position(park3).title("Souk El Khmiss parking"));
+                pl1 = new MarkerOptions().position(park1).title("Préfecture parking");
+                mMap.addMarker(pl1);
+                pl2 =new MarkerOptions().position(park2).title("Centre Midelt parking");
+                mMap.addMarker(pl2);
+                pl3=new MarkerOptions().position(park3).title("Souk El Khmiss parking");
+                mMap.addMarker(pl3);
+                pl4=new MarkerOptions().position(park4).title("El irfane parking");
+                mMap.addMarker(pl4);
+                pl5=new MarkerOptions().position(park5).title("Plage Temara parking");
+                mMap.addMarker(pl5);
                 mMap.animateCamera(CameraUpdateFactory.newLatLng(park1));
 
                /*  //Avoir la derniere localisation de l utilisateur pour modifier le marquer de localisation dans le Map
